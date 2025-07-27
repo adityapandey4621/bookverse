@@ -1,8 +1,16 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "humancache",
+  "version": "1.0.0",
+  "description": "HumanCache — A Smart Memory & Mood Mapping App",
   "scripts": {
-    "build": "echo 'no build script'"
-  }
+    "start": "serve -s .",
+    "build": "echo 'No build step required for static files'",
+    "preview": "serve ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "keywords": ["humancache", "memory", "smart recall", "mood tracker", "timeline", "privacy-first", "quote extraction"],
+  "license": "MIT"
 }
